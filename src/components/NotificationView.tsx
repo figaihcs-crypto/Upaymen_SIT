@@ -103,8 +103,8 @@ export default function NotificationView({
   const [reminderConfig, setReminderConfig] = useState({
     autoRemind: true,
     remindDaysBefore: 3,
-    waTemplate: "Yth. Orang Tua/Wali dari {nama_siswa}, menginfokan tagihan SPP {bulan} sebesar {jumlah} akan jatuh tempo pada {tenggat}. Silahkan lakukan pembayaran di loket sekolah atau transfer bank ke rekening SMA Nusantara Mandiri. Terima kasih.",
-    emailTemplate: "Kepada Yth. Bapak/Ibu Wali dari {nama_siswa},\n\nKami menginformasikan bahwa pembayaran kewajiban sekolah untuk putra/putri Anda saat ini telah mendekati tenggat waktu/jatuh tempo:\n- Nama Siswa: {nama_siswa}\n- Kelas: {kelas}\n- Tagihan: {nama_tagihan}\n- Jumlah: {jumlah}\n- Tanggal Jatuh Tempo: {tenggat}\n\nMohon untuk segera menyelesaikan administrasi sebelum tenggat waktu terlewati.\n\nHormat kami,\nBendahara SMA Nusantara Mandiri"
+    waTemplate: "Yth. Orang Tua/Wali dari {nama_siswa}, menginfokan tagihan SPP {bulan} sebesar {jumlah} akan jatuh tempo pada {tenggat}. Silahkan lakukan pembayaran di loket sekolah atau transfer bank ke rekening SIT IBNU HAJAR. Terima kasih.",
+    emailTemplate: "Kepada Yth. Bapak/Ibu Wali dari {nama_siswa},\n\nKami menginformasikan bahwa pembayaran kewajiban sekolah untuk putra/putri Anda saat ini telah mendekati tenggat waktu/jatuh tempo:\n- Nama Siswa: {nama_siswa}\n- Kelas: {kelas}\n- Tagihan: {nama_tagihan}\n- Jumlah: {jumlah}\n- Tanggal Jatuh Tempo: {tenggat}\n\nMohon untuk segera menyelesaikan administrasi sebelum tenggat waktu terlewati.\n\nHormat kami,\nBendahara SIT IBNU HAJAR"
   });
 
   // Manage custom template state variables

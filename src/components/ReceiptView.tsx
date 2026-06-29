@@ -381,7 +381,7 @@ export default function ReceiptView({ transaksi, config, onClose }: ReceiptViewP
                   </div>
                   <div>
                     <span className="text-[9px] text-slate-400 block font-medium">Atas Nama:</span>
-                    <span className="text-slate-200 font-semibold">{config.pemilikRekening || "SMA Nusantara Mandiri"}</span>
+                    <span className="text-slate-200 font-semibold">{config.pemilikRekening || "SIT IBNU HAJAR"}</span>
                   </div>
                 </div>
               </div>
@@ -562,7 +562,7 @@ export default function ReceiptView({ transaksi, config, onClose }: ReceiptViewP
               <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "5px", fontSize: "10px" }}>
                 <div><strong>Bank Penerima:</strong> {config.namaBank || "Bank Syariah Indonesia (BSI)"}</div>
                 <div><strong>No. Rekening:</strong> {config.rekeningBank || "7123456789"}</div>
-                <div style={{ gridColumn: "span 2" }}><strong>Pemilik Rekening:</strong> {config.pemilikRekening || "SMA Nusantara Mandiri"}</div>
+                <div style={{ gridColumn: "span 2" }}><strong>Pemilik Rekening:</strong> {config.pemilikRekening || "SIT IBNU HAJAR"}</div>
               </div>
             </div>
           </div>
