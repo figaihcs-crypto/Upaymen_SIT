@@ -314,10 +314,10 @@ export default function ReportsView({ transaksiList, config, onSyncFromSheet }: 
     doc.line(140, sigY + 24, 190, sigY + 24);
 
     doc.setFont("helvetica", "bold");
-    doc.text("( Drs. H. Mulyadi )", 15, sigY + 28);
+    doc.text("( Figa Galu )", 15, sigY + 28);
     doc.setFont("helvetica", "normal");
     doc.setFontSize(7);
-    doc.text("NIP. 196805121993021003", 15, sigY + 32);
+    doc.text("IHB. 2026", 15, sigY + 32);
 
     doc.setFont("helvetica", "bold");
     doc.setFontSize(9);
